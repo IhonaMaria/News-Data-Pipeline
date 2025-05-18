@@ -1,0 +1,5 @@
+cron:
+  - description: "Email latest content ideas every Monday at 9 AM"
+    url: /tasks/send-ideas
+    schedule: every monday 09:00
+    timezone: Europe/Madrid
