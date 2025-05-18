@@ -1,6 +1,0 @@
-requests
-google-cloud-storage
-functions-framework
-flask
-openai
-#python-dotenv -- For local .env
