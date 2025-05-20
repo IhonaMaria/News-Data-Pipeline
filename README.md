@@ -5,6 +5,8 @@ This schema provides an overview of the workflow of the project, its architectur
 In few words, this project extracts and filters specific news, uses GPT API to generate content ideas and formats and sends those ideas periodically to my personal email.
 It has all been deployed and scaled through GCP.
 
+![image](https://github.com/user-attachments/assets/362369c0-a462-4653-be08-f13f049432a7)
+
 ## Project overview
 
 ### Why I built this
