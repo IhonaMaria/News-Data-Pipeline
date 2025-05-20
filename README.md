@@ -64,7 +64,7 @@ Core logic for fetching, filtering, and summarizing technical news using the Ope
 - **`news_pipeline/`**  
   - `fetcher.py` – Fetches recent articles from NewsAPI by topic (parallelized).  
   - `filterer.py` – Scores and filters articles for technical relevance using GPT.  
-  - `summarizer.py` – Generates LinkedIn-style post ideas from curated content.  
+  - `summarizer.py` – Generates post ideas from curated content.  
   - `settings.py` – Loads configuration from environment variables or `.env` files.  
   - **Purpose**: Houses the reusable business logic, independent of cloud/runtime context.
 
