@@ -5,11 +5,6 @@ This schema provides an overview of the workflow of the project, its architectur
 In few words, this project extracts and filters specific news, uses GPT API to generate content ideas and formats and sends those ideas periodically to my personal email.
 It has all been deployed and scaled through GCP.
 
-
-# Documentation index
-
----
-
 ## Project overview
 
 ### Why I built this
@@ -66,17 +61,9 @@ Flask web service deployed on Google App Engine to send the weekly digest via em
 ---
 ## Smoke Testing Strategy
 
-Before deploying to GCP, the pipeline is tested locally using the `cli.py` adapter.
+Before deploying to GCP, the pipeline is tested locally using the `cli.py` adapter. This example would generate a file named ideas_output.md that contains the generated content ideas based on the last 5 days of news. 
 
 Example:
 
 ```bash
 python -m adapters.cli --days 5 --outfile ideas_output.md
-
-
-
-
-
----
-
-
