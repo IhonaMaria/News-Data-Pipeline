@@ -95,6 +95,4 @@ Flask web service deployed on Google App Engine to send the weekly digest via em
 - `cron.yaml` – App Engine scheduler configuration to run the email job every Monday at 08:00 (Madrid time).  
 - `requirements.txt` – Flask + SMTP mail libraries to send styled HTML and plain text emails.
 
-## Example result
-![image](https://github.com/user-attachments/assets/94435864-e34c-480a-aea8-6092a75b0712)
 
