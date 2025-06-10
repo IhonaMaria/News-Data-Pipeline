@@ -95,4 +95,12 @@ Flask web service deployed on Google App Engine to send the weekly digest via em
 - `cron.yaml` – App Engine scheduler configuration to run the email job every Monday at 08:00 (Madrid time).  
 - `requirements.txt` – Flask + SMTP mail libraries to send styled HTML and plain text emails.
 
+### Future work
+
+- Improve the filtering criteria for GPT.
+- Add automated testing.
+- Replace or complement NewsAPI with multiple sources.
+- Integrate an analytics layer (e.g., BigQuery + Looker Studio) to track content trends over time.
+- Add a way to tracke back the specific articles that inspired the summarized content.
+- Deploy as an open API so others can trigger content summaries via HTTP.
 
